@@ -1,0 +1,113 @@
+@charset "utf-8";
+.inner { max-width:1140px; margin:0 auto} 
+#nav { float:right; margin-top:20px; }
+#nav .depth1 > li { float:left; position:relative }
+#nav .depth1 > li > a { font-size:16px; 
+    color:#374785;
+    padding:8px 27px; 
+}
+#nav .depth1 > li > a::after {
+    content:'\f107';
+    font-family:'Font Awesome 5 Free';
+    font-weight:900 !important;
+    margin-left:10px; 
+}
+#nav .depth1 > li:hover > a::after {
+    content:'\f106';
+    font-family:'Font Awesome 5 Free';
+    font-weight:900 !important;
+    margin-left:10px; 
+}
+#nav .depth1 > li:first-child > a::after,
+#nav .depth1 > li:last-child > a::after
+{
+    display:none; 
+}
+#nav .depth2 {
+    position:absolute;
+    top:100%;
+    left:0; 
+    width:160px;
+    background:#fff;
+    border-radius:8px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.1);
+    padding:8px 0;
+    display:none;
+}
+#nav .depth1 > li:hover .depth2 {
+    display:block; 
+}
+
+#nav .depth2 li a {
+    font-size:14px; padding:8px 16px;
+    color:#9a9aa0; display:block;
+}
+#nav .depth2 li:hover a {
+    color:#374785;
+    background:#e7e7f9;
+}
+#header{background-color:#eef5fc; float:fixed;}
+#header #inner{max-width:1140px; margin:0 auto;}
+#header h1{width:184px; margin:16px 0px; float:left;}
+.article1{background-color: #eef5fc; padding-top:72.47px;}
+.article1 h2{color: #2E2E2E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 29px; margin-bottom:40px;}
+.article1 .inner {background:url(../images/mainbanner.png) no-repeat; 
+background-size: 35%; background-position: 0 30px;}
+.inner .slogun{float:right; width:50%; padding-bottom:245px;}
+.article2 .inner h2{margin-bottom:24px; color: #282866;
+    font-family: "Poppins", Sans-serif;
+    font-size: 29px;}
+.article1 .inner p{color: #2E2E2E;
+font-family: "Poppins", Sans-serif;
+font-size: 18px;}
+.article2{max-width:1140px; margin:0 auto; position:relative;}
+.article2 h2{text-align:center; margin-top:50px;}
+.article2 li{width:25%; float:left; padding: 0 15px;}
+.article2 h3{text-align:center; color: #282866;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px; margin:10px;}
+.article2 p{color: #282866;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px; line-height:20px; margin-bottom:50px;}
+.article2 .inner .icon{font-size:50px; text-align: center;}
+.article3{max-width:1140px; margin:0 auto;}
+.article3 h2{text-align:center; margin-top:50px;color: #282866;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;}
+.article3 li {width:33.3333%; float:left; padding:20px 0 5px 10px;}
+.article3 .hlayout h3{margin-bottom:50px; text-align:center; float:left;
+padding:0 160px;}
+.article4{background: url(../images/videobanner.png)no-repeat;
+padding:240px 0; background-size:cover; } 
+.article4 .icon{font-size:50px; line-height:66%; margin:0 auto;
+text-align:center; color:#fff; border-radius:50%; }
+.article5 {max-width:1140px; margin:0 auto;}
+.article5 h2{margin:50px 0px; text-align:center;color: #282866;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;}
+.article5 .inner{position: relative;}
+.article5 .inner li img{float:left; width:32%;}
+/* .article5 .inner h3{position:absolute; margin:280 0 100 100px; 
+    width:32%;}*/
+.article5 .inner h3{float:left; text-align:center; margin:0 146px;}
+.article6{background-color:#eef5fc; margin-top:50px;}
+.article6 .inner{max-width:1140px; margin:0 auto;}
+
+.article6 .inner img{float:right; width:50%;}
+.article6 h2{padding-top:130px;  color: #2e2e2e;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;}
+.article6 p{margin-top:50px; color: #2e2e2e;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px; padding-bottom:130px;}
+.article6 .inner img{padding:80px 0;}
+#footer{background-color:#282866; margin-top:50px;}
+#footer .inner{max-width:1140px; margin:0 auto;padding-top:50px;}
+#footer .inner i { font-size:50px; margin:20px;
+border-radius:50%; background-color: #fff; padding:20px; }
+#footer .inner i:nth-child(1){margin-left:300px;}
+.contact h3{color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px; margin:50px 50px 0px 0px; padding-bottom:50px; text-align:center;}
